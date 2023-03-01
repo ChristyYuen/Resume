@@ -1,0 +1,260 @@
+%-------------------------
+% Resume in Latex
+% Based off of: https://github.com/sb2nov/resume
+% and Jake Gutierrez's version of it
+% at https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% inspired by https://practicaltypography.com/resumes.html
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[margin = 1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{fancyhdr}
+
+\usepackage{xcolor}
+\usepackage[pro]{fontawesome5}
+
+\usepackage{contour}
+\usepackage{ulem}
+
+%------------------------
+% Use of Fancy
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%-------------------------
+% Adjust margins
+\iffalse
+\addtolength{\oddsidemargin}{0.3in}
+\addtolength{\marginparsep}{0.3in}
+\addtolength{\evensidemargin}{0.3in}
+\addtolength{\textwidth}{-0.5in}
+\addtolength{\topmargin}{0.3in}
+\addtolength{\textheight}{0.3in}
+\fi
+
+%-------------------------
+% For Icons
+\definecolor{myblue}{RGB}{29,57,127}
+\newcommand{\seticon}[1]{\textcolor{Cerulean}{\csname #1\endcsname}}
+
+\renewcommand{\ULdepth}{3.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\graphicspath{ {./Images/} }
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{Cerulean}\titlerule \vspace{-3pt}]
+
+%------------------------
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textnormal{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeOrganizationsHeading}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*} \vspace{-20pt}
+}
+
+\newcommand{\resumeSub}[6]{ % Custom for minor
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textnormal{\small #4} \\
+      \textit{\small#5} & \textnormal{\small #6} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------------------------------------------------------------
+% Start of Resume
+
+\begin{document}
+
+\iffalse
+\begin{wrapfigure}{R}{0.15\textwidth}
+\vspace{-25pt}
+\includegraphics[scale=0.20]{dp_cropped}
+\end{wrapfigure}
+\fi
+%----------------------------------------------------------------------------
+% Heading (Links and Number)
+
+\begin{center}
+    \textbf{\Huge Christy Yuen} \\
+    \normalfont San Francisco Bay Area \vspace{1pt} \\
+    \small \seticon{faPhone} (415) 425-7343 $|$ 
+    \seticon{faAt} \href{mailto:x@x.com}{\underline{cyuen7@ucsc.edu}} $|$ 
+    \seticon{faLinkedin} 
+    		\href{https://www.linkedin.com/in/yuenchristy/}{\underline{linkedin.com/yuenchristy}} $|$ 
+    \seticon{faGithub} 
+    		\href{https://github.com/ChristyYuen}{\underline{github.com/ChristyYuen}}
+\end{center}
+\vspace{-10pt}
+
+%----------------------------------------------------------------------------
+% Education
+\section{\seticon{faSchool} \textbf{EDUCATION}}
+  \resumeSubHeadingListStart
+    \resumeSub
+      {University of California, Santa Cruz}{September 2019 -- June 2022}
+      {Bachelor of Science - Computer Science}{}
+      {Minor in Technology and Information Management}{}
+      \small{\item{
+    	\begin{itemize}[leftmargin=0.15in, label={}]
+    		\textbf{Relevant Courses:}{  }
+    		\begin{enumerate}[label={}]
+         		\vspace{-2pt} \item{ Systems Analysis and Design, Computer Security, Computer Architecture, Game AI}
+         \end{enumerate}  
+     \end{itemize}\vspace{-3pt} }}      
+  \resumeSubHeadingListEnd
+  
+%----------------------------------------------------------------------------
+% Technical Skills
+\section{\seticon{faCog} \textbf{TECHNICAL SKILLS}} %\& CLASSES}}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:}{ Proficient in C, C++, $\&$ Python; Familiar with HTML, CSS, JavaScript, and Java} \\		   
+    \textbf{Developer Tools:}{ Jupyter Notebooks, Git, Google Cloud, VS Code, Linux (Ubuntu), MiniNet}\\ 
+    \textbf{Soft Skills:}{ Technical Writing, Communication, Teamwork, Problem-Solving, Adaptable}\\
+    }}
+ \end{itemize} 
+ 
+%----------------------------------------------------------------------------
+% Projects
+\section{\seticon{faTerminal} \textbf{PROJECTS}}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading 
+      %----------------------------------------------------------------------------
+      % Curl Commend
+          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{Curl Command (Socket Programming)}}} $|$ \textit{Python}}{May 2022}
+          \resumeItemListStart
+            \resumeItem{Created a custom Curl command using HTTP (TCP) and the socket interface.}
+            \resumeItem{Successfully retrieved and downloaded web objects from a variety of public web servers.}
+            \resumeItem{Implemented a logging system resulting in a 25$\%$ reduction in error rates.}
+          \resumeItemListEnd
+     \resumeProjectHeading 
+     %----------------------------------------------------------------------------
+     % YFIOB’s (Non-Profit) Airtable
+          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{YFIOB’s (Non-Profit) Airtable}}} $|$ \textit{AirTable}}{March 2022 - June 2022}
+          \resumeItemListStart
+            \resumeItem{Achieved a 50$\%$ in workflow efficiency with the AirTable implementation.}
+            \resumeItem{Automated email communications and volunteer management with three custom solutions.}
+            \resumeItem{Created a reference document to enable smooth transitions to AirTable for their employees.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+      %----------------------------------------------------------------------------
+      % D\&D Companion
+          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{D\&D Companion}}} $|$ \textit{JavaScript}}{January 2022 - March 2022}
+          \resumeItemListStart
+            \resumeItem{Designed and constructed the frontend interface using Adobe XD and React.}
+            \resumeItem{Engineered with Node (backend proxy server) and SQL (user login data).}
+            \resumeItem{Collaborated with the Product Owner, SCRUM master, and a team of 2 developers to successfully deliver the project using Agile SCRUM methodology.}
+          \resumeItemListEnd   
+      \resumeProjectHeading 
+      %----------------------------------------------------------------------------
+      % CSE 130 (Principles of Computer Systems Design) Project
+          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{Principles of Computer Systems Design Project}}} $|$ \textit{C}}{January 2021 - March 2021}
+          \resumeItemListStart
+            \resumeItem{Engineered and executed a multi-threaded operating system kernel using C.}
+            \resumeItem{Developed and incorporated a prioritized ready queue that supports both nested and chain priority donation, improving system efficiency and responsiveness.}
+             \resumeItem{Deployed sophisticated process management, memory management, and thread scheduling features for optimal system performance.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+      %----------------------------------------------------------------------------
+      % Mini Basic Language Interpreter
+          {\href{https://github.com/ChristyYuen/Mini-Basic-Language-Interpreter}{\myuline{\textbf{Mini Basic Language Interpreter}}} $|$ \textit{Smalltalk, Scheme, OCaml, and Perl}}{March 2021}
+          \resumeItemListStart
+            \resumeItem{Used functional programming and implementing Symbol tables for variable management.}
+            \resumeItem{Programmed the interpreter with tail recursion while avoiding loops.} %, demonstrating proficiency in functional programming techniques.
+            \resumeItem{Successfully parsing over 10,000 lines of intermediate language code with 99$\%$ accuracy.}
+          \resumeItemListEnd
+       \resumeProjectHeading
+       %----------------------------------------------------------------------------      
+       % Post-it Note-Taking App
+          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{Post-it Note-Taking App}}} $|$ \textit{Python (py4web)}}{March 2020}
+          \resumeItemListStart
+            \resumeItem{Established user-based login functionality with secure database integration for access control.}
+            \resumeItem{Crafted an intuitive and user-friendly note-taking interface for adding, deleting, customizing, and rearranging notes.}
+            %\resumeItem{Created a secure note-taking app with proficiency in Python, database management, and user authentication protocols.}
+          \resumeItemListEnd       
+    \resumeSubHeadingListEnd 
+%-----------------------------------!ORGANIZATIONS!-----------------------------
+\section{\seticon{faUsers} \textbf{ORGANIZATIONS}}
+  \resumeSubHeadingListStart
+      %-----------------!CodePath!----------
+      \resumeOrganizationsHeading
+      {\textbf{CodePath Intermediate Software Engineering} $|$ Student}{Summer 2022}
+      %-----------------!Robotics!----------
+      \resumeOrganizationsHeading
+      { \textbf{Team 5507 Robotic Eagles} $|$ Hardware Member}{August 2016 - May 2017}
+      %-----------------!GWC!--------------
+      \resumeOrganizationsHeading
+      {\textbf{Girls Who Code Summer Immersion} $|$ Student Programmer}{Summer 2015}
+  \resumeSubHeadingListEnd 
+
+\end{document}
