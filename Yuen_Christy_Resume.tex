@@ -56,6 +56,8 @@
 \definecolor{myblue}{RGB}{29,57,127}
 \newcommand{\seticon}[1]{\textcolor{Cerulean}{\csname #1\endcsname}}
 
+%-------------------------
+% Underline Commends and URL
 \renewcommand{\ULdepth}{3.8pt}
 \contourlength{0.8pt}
 
@@ -64,9 +66,13 @@
   \llap{\contour{white}{#1}}%
 }
 
-\graphicspath{ {./Images/} }
+\setulcolor{Cerulean}
 
 \urlstyle{same}
+
+%-------------------------
+% Images
+\graphicspath{ {./Images/} }
 
 \raggedright
 \setlength{\tabcolsep}{0in}
@@ -117,7 +123,7 @@
     \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*} %\vspace{-8pt} % More space under Project heading without the -8
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
@@ -148,11 +154,11 @@
     \textbf{\Huge Christy Yuen} \\
     \normalfont San Francisco Bay Area \vspace{1pt} \\
     \small \seticon{faPhone} (415) 425-7343 $|$ 
-    \seticon{faAt} \href{mailto:x@x.com}{\underline{cyuen7@ucsc.edu}} $|$ 
+    \seticon{faAt} \href{mailto:x@x.com}{\ul{cyuen7@ucsc.edu}} $|$ 
     \seticon{faLinkedin} 
-    		\href{https://www.linkedin.com/in/yuenchristy/}{\underline{linkedin.com/yuenchristy}} $|$ 
+    		\href{https://www.linkedin.com/in/yuenchristy/}{\ul{linkedin.com/yuenchristy}} $|$ 
     \seticon{faGithub} 
-    		\href{https://github.com/ChristyYuen}{\underline{github.com/ChristyYuen}}
+    		\href{https://github.com/ChristyYuen}{\ul{github.com/ChristyYuen}}
 \end{center}
 \vspace{-10pt}
 
@@ -256,5 +262,6 @@
       \resumeOrganizationsHeading
       {\textbf{Girls Who Code Summer Immersion} $|$ Student Programmer}{Summer 2015}
   \resumeSubHeadingListEnd 
+  %\vspace{1pt} Need this when Organizations is not on the bottom
 
 \end{document}
