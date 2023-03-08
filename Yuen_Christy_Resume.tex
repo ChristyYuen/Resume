@@ -91,7 +91,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-3pt}}
   }
 }
 
@@ -116,14 +116,15 @@
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textnormal{\small #4} \\
       \textit{\small#5} & \textnormal{\small #6} \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*} \vspace{-8pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \vspace{-2pt}\item
+    %\vspace{-2pt} %more auto sizing without
+    \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*} %\vspace{-8pt} % More space under Project heading without the -8
+    \end{tabular*} %\vspace{-15pt} % More space under Project heading without the -8
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
@@ -133,7 +134,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}} %change vspace for format
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %---------------------------------------------------------------------------
@@ -166,26 +167,22 @@
 % Education
 \section{\seticon{faSchool} \textbf{EDUCATION}}
   \resumeSubHeadingListStart
+  	\resumeSubheading
+       {Google}{Expected completion August 2023}
+       {Google Data Analytics Professional Certificate}{}
     \resumeSub
       {University of California, Santa Cruz}{September 2019 -- June 2022}
       {Bachelor of Science - Computer Science}{}
-      {Minor in Technology and Information Management}{}
-      \small{\item{
-    	\begin{itemize}[leftmargin=0.15in, label={}]
-    		\textbf{Relevant Courses:}{  }
-    		\begin{enumerate}[label={}]
-         		\vspace{-2pt} \item{ Systems Analysis and Design, Computer Security, Computer Architecture, Game AI}
-         \end{enumerate}  
-     \end{itemize}\vspace{-3pt} }}      
+      {Minor in Technology and Information Management}{}   
   \resumeSubHeadingListEnd
-  
 %----------------------------------------------------------------------------
 % Technical Skills
 \section{\seticon{faCog} \textbf{TECHNICAL SKILLS}} %\& CLASSES}}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages:}{ Proficient in C, C++, $\&$ Python; Familiar with HTML, CSS, JavaScript, and Java} \\		   
-    \textbf{Developer Tools:}{ Jupyter Notebooks, Git, Google Cloud, VS Code, Linux (Ubuntu), MiniNet}\\ 
+    \textbf{Developer Tools:}{ Jupyter Notebooks, Git, Google Cloud, VS Code, Linux (Ubuntu), MiniNet}\\
+    \textbf{Skills:}{ Computer Networks(TCP/UDP), Systems Analysis and Design, Computer Security, Computer Architecture, Game AI, Web Applications, Computational Models}\\ 
     \textbf{Soft Skills:}{ Technical Writing, Communication, Teamwork, Problem-Solving, Adaptable}\\
     }}
  \end{itemize} 
