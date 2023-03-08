@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  1 MAR 2023 14:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  7 MAR 2023 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,24 +416,24 @@ Package: ulem 2019/11/18
 (Yuen_Christy_Resume.aux)
 \openout1 = `Yuen_Christy_Resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 143.
+LaTeX Font Info:    ... okay on input line 143.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -460,7 +460,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 136.
+Package hyperref Info: Link coloring OFF on input line 143.
  (Yuen_Christy_Resume.out) (Yuen_Christy_Resume.out)
 \@outlinefile=\write3
 \openout3 = `Yuen_Christy_Resume.out'.
@@ -501,76 +501,76 @@ Package hyperref Info: Link coloring OFF on input line 136.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 150.
+nput line 157.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree2.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 150.
+(Font)              <7> on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 150.
+(Font)              <5> on input line 157.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 15
-0.
+7.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 151.
+nput line 158.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 152.
+ input line 159.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 152.
+n input line 159.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 161.
+(Font)              using `OT1/cmr/bx/n' instead on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faSchool' on input line 161.
+(hyperref)                removing `\faSchool' on input line 168.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 166.
+(Font)              <10.95> on input line 172.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 166.
+(Font)              <8> on input line 172.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 166.
+(Font)              <6> on input line 172.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faCog' on input line 178.
+(hyperref)                removing `\faCog' on input line 180.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 189.
+nput line 192.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree3.fd)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faTerminal' on input line 189.
+(hyperref)                removing `\faTerminal' on input line 192.
 
 contour: Using 16 copies for `\textbf {Curl Command (Socket Programming)}' on i
-nput line 194.
+nput line 197.
 contour: Using 16 copies for `\textbf {YFIOB’s (Non-Profit) Airtable}' on inp
-ut line 203.
-contour: Using 16 copies for `\textbf {D\&D Companion}' on input line 212.
+ut line 206.
+contour: Using 16 copies for `\textbf {D\&D Companion}' on input line 215.
 contour: Using 16 copies for `\textbf {Principles of Computer Systems Design Pr
-oject}' on input line 221.
+oject}' on input line 224.
 contour: Using 16 copies for `\textbf {Mini Basic Language Interpreter}' on inp
-ut line 230.
+ut line 233.
 contour: Using 16 copies for `\textbf {Post-it Note-Taking App}' on input line 
-239.
+242.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faUsers' on input line 247.
+(hyperref)                removing `\faUsers' on input line 250.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -588,10 +588,10 @@ Package rerunfilecheck Info: File `Yuen_Christy_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D2C71F943DA1BC9E22C215903F98EDFB;437.
  ) 
 Here is how much of TeX's memory you used:
- 15145 strings out of 475385
- 263951 string characters out of 2776907
- 652732 words of memory out of 3000000
- 36309 multiletter control sequences out of 15000+600000
+ 15142 strings out of 475385
+ 263947 string characters out of 2776907
+ 653732 words of memory out of 3000000
+ 36307 multiletter control sequences out of 15000+600000
  477315 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,293b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -609,9 +609,9 @@ X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yuenc/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yuenc/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/yuenc/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Yuen_Christy_Resume.pdf (1 page, 150789 bytes).
+Output written on Yuen_Christy_Resume.pdf (1 page, 151754 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
