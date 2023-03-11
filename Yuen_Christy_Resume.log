@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  7 MAR 2023 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  10 MAR 2023 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,48 +529,49 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not
 available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 159.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 168.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faSchool' on input line 168.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 172.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 172.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 172.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faCog' on input line 180.
-
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 192.
+nput line 167.
 
 (C:\Users\yuenc\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree3.fd)
 
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 167.
+
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faTerminal' on input line 192.
+(hyperref)                removing `\faUser' on input line 167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faSchool' on input line 172.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 176.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 176.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 176.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faCog' on input line 184.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faTerminal' on input line 195.
 
 contour: Using 16 copies for `\textbf {Curl Command (Socket Programming)}' on i
-nput line 197.
+nput line 200.
 contour: Using 16 copies for `\textbf {YFIOB’s (Non-Profit) Airtable}' on inp
-ut line 206.
-contour: Using 16 copies for `\textbf {D\&D Companion}' on input line 215.
+ut line 209.
+contour: Using 16 copies for `\textbf {D\&D Companion}' on input line 218.
 contour: Using 16 copies for `\textbf {Principles of Computer Systems Design Pr
-oject}' on input line 224.
+oject}' on input line 227.
 contour: Using 16 copies for `\textbf {Mini Basic Language Interpreter}' on inp
-ut line 233.
-contour: Using 16 copies for `\textbf {Post-it Note-Taking App}' on input line 
-242.
+ut line 236.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faUsers' on input line 250.
+(hyperref)                removing `\faUsers' on input line 244.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -585,16 +586,16 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Yuen_Christy_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: D2C71F943DA1BC9E22C215903F98EDFB;437.
+(rerunfilecheck)             Checksum: C56433F70F5BC543A62EF42E7541BD55;523.
  ) 
 Here is how much of TeX's memory you used:
- 15142 strings out of 475385
- 263947 string characters out of 2776907
- 653732 words of memory out of 3000000
- 36307 multiletter control sequences out of 15000+600000
+ 15144 strings out of 475385
+ 263967 string characters out of 2776907
+ 649751 words of memory out of 3000000
+ 36308 multiletter control sequences out of 15000+600000
  477315 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,293b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,383b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/yuenc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa
 5free3.enc}{C:/Users/yuenc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontaw
 esome5/fa5brands0.enc}{C:/Users/yuenc/AppData/Local/Programs/MiKTeX/fonts/enc/d
@@ -609,9 +610,9 @@ X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yuenc/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yuenc/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/yuenc/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Yuen_Christy_Resume.pdf (1 page, 151754 bytes).
+Output written on Yuen_Christy_Resume.pdf (1 page, 151677 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

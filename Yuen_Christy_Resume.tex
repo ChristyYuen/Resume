@@ -80,7 +80,7 @@
 %-------------------------
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-8pt}\scshape\raggedright\large
+  \vspace{-8pt}\scshape\raggedright\large %used to be -8
 }{}{0em}{}[\color{Cerulean}\titlerule \vspace{-3pt}]
 
 %------------------------
@@ -120,11 +120,11 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    %\vspace{-2pt} %more auto sizing without
+    \vspace{-2pt} %more auto sizing without
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*} %\vspace{-15pt} % More space under Project heading without the -8
+    \end{tabular*} \vspace{-15.6pt} % More space under Project heading without the -8
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
@@ -161,8 +161,12 @@
     \seticon{faGithub} 
     		\href{https://github.com/ChristyYuen}{\ul{github.com/ChristyYuen}}
 \end{center}
-\vspace{-10pt}
-
+\vspace{-12pt} %used to be -15 without summary
+%----------------------------------------------------------------------------
+% Summary
+\section{\seticon{faUser} \textbf{SUMMARY}}
+Computer Science graduate proficient in C, C++, and Python with expertise in backend and full stack development. Seeking to apply my skills to develop innovative software solutions that solve complex business problems. Eager to deliver exceptional results and drive business success through strong work ethic and passion for excellence.
+\vspace{-5pt}
 %----------------------------------------------------------------------------
 % Education
 \section{\seticon{faSchool} \textbf{EDUCATION}}
@@ -185,8 +189,7 @@
     \textbf{Skills:}{ Computer Networks(TCP/UDP), Systems Analysis and Design, Computer Security, Computer Architecture, Game AI, Web Applications, Computational Models}\\ 
     \textbf{Soft Skills:}{ Technical Writing, Communication, Teamwork, Problem-Solving, Adaptable}\\
     }}
- \end{itemize} 
- 
+ \end{itemize} \vspace{-13pt}
 %----------------------------------------------------------------------------
 % Projects
 \section{\seticon{faTerminal} \textbf{PROJECTS}}
@@ -235,16 +238,7 @@
             \resumeItem{Used functional programming and implementing Symbol tables for variable management.}
             \resumeItem{Programmed the interpreter with tail recursion while avoiding loops.} %, demonstrating proficiency in functional programming techniques.
             \resumeItem{Successfully parsing over 10,000 lines of intermediate language code with 99$\%$ accuracy.}
-          \resumeItemListEnd
-       \resumeProjectHeading
-       %----------------------------------------------------------------------------      
-       % Post-it Note-Taking App
-          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{Post-it Note-Taking App}}} $|$ \textit{Python (py4web)}}{March 2020}
-          \resumeItemListStart
-            \resumeItem{Established user-based login functionality with secure database integration for access control.}
-            \resumeItem{Crafted an intuitive and user-friendly note-taking interface for adding, deleting, customizing, and rearranging notes.}
-            %\resumeItem{Created a secure note-taking app with proficiency in Python, database management, and user authentication protocols.}
-          \resumeItemListEnd       
+          \resumeItemListEnd     
     \resumeSubHeadingListEnd 
 %-----------------------------------!ORGANIZATIONS!-----------------------------
 \section{\seticon{faUsers} \textbf{ORGANIZATIONS}}
