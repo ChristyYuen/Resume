@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  10 MAR 2023 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  10 MAR 2023 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,12 +566,12 @@ contour: Using 16 copies for `\textbf {YFIOB’s (Non-Profit) Airtable}' on inp
 ut line 209.
 contour: Using 16 copies for `\textbf {D\&D Companion}' on input line 218.
 contour: Using 16 copies for `\textbf {Principles of Computer Systems Design Pr
-oject}' on input line 227.
+oject}' on input line 226.
 contour: Using 16 copies for `\textbf {Mini Basic Language Interpreter}' on inp
-ut line 236.
+ut line 235.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\faUsers' on input line 244.
+(hyperref)                removing `\faUsers' on input line 243.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -595,7 +595,7 @@ Here is how much of TeX's memory you used:
  36308 multiletter control sequences out of 15000+600000
  477315 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,383b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,389b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/yuenc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa
 5free3.enc}{C:/Users/yuenc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontaw
 esome5/fa5brands0.enc}{C:/Users/yuenc/AppData/Local/Programs/MiKTeX/fonts/enc/d
@@ -610,7 +610,7 @@ X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yuenc/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yuenc/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/yuenc/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Yuen_Christy_Resume.pdf (1 page, 151677 bytes).
+Output written on Yuen_Christy_Resume.pdf (1 page, 152981 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
