@@ -103,6 +103,15 @@
     \end{tabular*}\vspace{-8pt}
 }
 
+\newcommand{\resumeHeadingT}[4]{ %T is techologies
+    \vspace{-2pt} %more auto sizing without
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+      \textit{\small#3} & \textnormal{\small #4} \\
+    \end{tabular*} \vspace{-15.6pt} % More space under Project heading without the -8
+}
+
 \newcommand{\resumeOrganizationsHeading}[2]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -195,6 +204,16 @@
 % Projects
 \section{\seticon{faTerminal} \textbf{EXPERIENCE \& PROJECTS}}
     \resumeSubHeadingListStart
+      \resumeHeadingT
+      %----------------------------------------------------------------------------
+      % California Seismic 
+      {\href{https://californiaseismic.com/}{\myuline{\textbf{Front End Intern}}} $|$ \textit{AWS, Git, React, Jest, HTML, Tailwind}}{June 2023 - Present}
+      {California Seismic}{Remote}
+      \resumeItemListStart
+            \resumeItem{Utilize Scrum methodology to foster effective collaboration and drive iterative development}
+            \resumeItem{Used React.js and D3 to create a base shear diagram for accurate and interactive visualization}
+            \resumeItem{Collaborated with designers to translate wireframes into fully functional web interfaces}
+          \resumeItemListEnd
       \resumeSubheading
       %----------------------------------------------------------------------------
       % Juni Learning Instructor 
@@ -211,19 +230,19 @@
       {\myuline{\textbf{Resident Assistant (RA)}}}{August 2021 - June 2022}
       {University of California, Santa Cruz}{Santa Cruz, CA}
       \resumeItemListStart
-            \resumeItem{Utilized Onity software in an office environment to facilitate lockouts as a RA}
+            %\resumeItem{Utilized Onity software in an office environment to facilitate lockouts as a RA}
             \resumeItem{Gained proficiency in emergency and crisis response, conflict mediation, and peer counseling}
             \resumeItem{Increased user engagement by 10\% through the creation of a monthly newsletter using HTML and CSS for the Ethnic Resource Centers}
           \resumeItemListEnd    
-      \resumeProjectHeading 
+      %\resumeProjectHeading 
       %----------------------------------------------------------------------------
       % Curl Commend
-          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{Curl Command (Socket Programming)}}} $|$ \textit{Python}}{May 2022}
-          \resumeItemListStart
-            \resumeItem{Created a custom Curl command using HTTP (TCP) and the socket interface}
-            \resumeItem{Successfully retrieved and downloaded web objects from a variety of public web servers}
-            \resumeItem{Implemented a logging system resulting in a 25$\%$ reduction in error rates}
-          \resumeItemListEnd
+          %{\href{https://github.com/ChristyYuen/Socket-Programming}{\myuline{\textbf{Curl Command (Socket Programming)}}} $|$ \textit{Python}}{May 2022}
+          %\resumeItemListStart
+           % \resumeItem{Created a custom Curl command using HTTP (TCP) and the socket interface}
+           % \resumeItem{Successfully retrieved and downloaded web objects from a variety of public web servers}
+            %\resumeItem{Implemented a logging system resulting in a 25$\%$ reduction in error rates}
+          %\resumeItemListEnd
      \resumeProjectHeading 
      %----------------------------------------------------------------------------
      % YFIOB’s (Non-Profit) Airtable
@@ -254,8 +273,8 @@
       % Mini Basic Language Interpreter
           %{\href{https://github.com/ChristyYuen/Mini-Basic-Language-Interpreter}{\myuline{\textbf{Mini Basic Language Interpreter}}} $|$ \textit{Smalltalk, Scheme, OCaml, and Perl}}{March 2021}
           %\resumeItemListStart
-            %\resumeItem{Used functional programming and implementing Symbol tables for variable management}
-            %\resumeItem{Programmed the interpreter with tail recursion while avoiding loops} %, demonstrating proficiency in functional programming techniques.
+            %\resumeItem{Leveraged functional programming and implemented Symbol tables for variable management} %Leveraged functional programming and implemented Symbol tables for efficient variable management
+           % \resumeItem{Programmed with tail recursion, optimizing performance and avoiding unnecessary loops} %, demonstrating proficiency in functional programming techniques.
             %\resumeItem{Successfully parsing over 10,000 lines of intermediate language code with 99$\%$ accuracy}
           %\resumeItemListEnd     
     \resumeSubHeadingListEnd 
