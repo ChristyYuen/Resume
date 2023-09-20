@@ -9,6 +9,10 @@
 
 \documentclass[a4paper,11pt]{article}
 
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -163,11 +167,13 @@
 \begin{center}
     \textbf{\Huge Christy Yuen} \\
     \normalfont San Francisco Bay Area \vspace{1pt} \\
-    \small \seticon{faGlobe} \href{https://yuenchristy.com/}{\ul{yuenchristy.com}} $|$ 
-    \seticon{faAt} \href{mailto:x@x.com}{\ul{cyuen7@ucsc.edu}} $|$ 
-    \seticon{faLinkedin} 
+    %\small \seticon{faGlobe} \href{https://yuenchristy.com/}{\ul{yuenchristy.com}} $|$ 
+    \small {\ul{yuenchristy.com}} $|$ 
+    %\seticon{faAt} \href{mailto:x@x.com}{\ul{cyuen7@ucsc.edu}} $|$ 
+    {\ul{cyuen7@ucsc.edu}} $|$ 
+    %\seticon{faLinkedin} 
     		\href{https://www.linkedin.com/in/yuenchristy/}{\ul{linkedin.com/yuenchristy}} $|$ 
-    \seticon{faGithub} 
+    %\seticon{faGithub} 
     		\href{https://github.com/ChristyYuen}{\ul{github.com/ChristyYuen}}
 \end{center}
 \vspace{-12pt} %used to be -15 without summary
@@ -178,7 +184,8 @@
 %\vspace{-5pt}
 %----------------------------------------------------------------------------
 % Education
-\section{\seticon{faSchool} \textbf{EDUCATION}}
+%\section{\seticon{faSchool} \textbf{EDUCATION}}
+\section{ \textbf{EDUCATION}}
   \resumeSubHeadingListStart
   	%\resumeSubheading
        %{Google}{Expected completion August 2023}
@@ -190,31 +197,24 @@
   \resumeSubHeadingListEnd
 %----------------------------------------------------------------------------
 % Technical Skills
-\section{\seticon{faCog} \textbf{TECHNICAL SKILLS}} %\& CLASSES}}
+%\section{\seticon{faCog} \textbf{TECHNICAL SKILLS}} %\& CLASSES}}
+\section{ \textbf{TECHNICAL SKILLS}} %\& CLASSES}}
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages:}{ Python, C, C++, Java, HTML, CSS, JavaScript, React, D3, R, $\&$ SQL} \\		   
     \textbf{Developer Tools:}{ Jupyter Notebooks, Git, Trello, VS Code, Linux (Ubuntu), Tableau}\\
-    \textbf{Skills:}{ Computer Networks (TCP/UDP), Systems Analysis and Design, Web Applications, Teaching}\\ 
+    %\textbf{Skills:}{ Computer Networks (TCP/UDP), Systems Analysis and Design, Web Applications, Teaching}\\ 
+    \textbf{Skills:}{ Algorithm and Data Structures, Web Development, Debugging, Teaching}\\ 
     %\textbf{Soft Skills:}{ Technical Writing, Communication, Teamwork, Problem-Solving, Adaptable}\\
     \textbf{Certificates:}{ Google Data Analytics Professional Certificate}\\
     }}
  \end{itemize} \vspace{-13pt}
 %----------------------------------------------------------------------------
-% Projects
-\section{\seticon{faBriefcase} \textbf{EXPERIENCE}}
+% Experience
+%\section{\seticon{faBriefcase} \textbf{EXPERIENCE}}
+\section{ \textbf{EXPERIENCE}}
     \resumeSubHeadingListStart
-      \resumeHeadingT
-      %----------------------------------------------------------------------------
-      % California Seismic 
-      {\href{https://californiaseismic.com/}{\myuline{\textbf{Front End Intern}}} $|$ \textit{AWS, Git, React, Jest, HTML, Tailwind}}{June 2023 - August 2023}
-      {California Seismic}{Remote}
-      \resumeItemListStart
-            \resumeItem{Adeptly employed Trello for efficient project management and collaboration}
-            \resumeItem{Collaboratively transformed wireframes into fully functional web interfaces using Figma, seamlessly translating design concepts into user-friendly pages}
-            \resumeItem{Orchestrated D3's graphing capabilities to integrate user interactions with a base shear diagram, resulting in dynamic, scalable, and user-centric visualizations}
-          \resumeItemListEnd
-      \resumeSubheading
+    \resumeSubheading
       %----------------------------------------------------------------------------
       % Juni Learning Instructor 
       {\myuline{\textbf{Part-Time Computer Science Instructor}}}{May 2023 - Present}
@@ -223,6 +223,17 @@
             \resumeItem{Instructed students in personalized computer science lessons, utilizing hands-on learning strategies for Java, JavaScript, and Python}
             \resumeItem{Analyzed student data to target interventions and improve computer science comprehension}
             \resumeItem{Collaborated with educators to implement a curriculum that aligned with industry standards}
+          \resumeItemListEnd
+      \resumeHeadingT
+      %----------------------------------------------------------------------------
+      % California Seismic 
+      %\href{https://californiaseismic.com/}
+      {{\myuline{\textbf{Front End Intern}}} $|$ \textit{AWS, Git, React, Jest, HTML, Tailwind}}{June 2023 - August 2023}
+      {California Seismic}{Remote}
+      \resumeItemListStart
+            \resumeItem{Adeptly employed Trello for efficient project management and collaboration}
+            \resumeItem{Collaboratively transformed wireframes into fully functional web interfaces using Figma, seamlessly translating design concepts into user-friendly pages}
+            \resumeItem{Orchestrated D3's graphing capabilities to integrate user interactions with a base shear diagram, resulting in dynamic, scalable, and user-centric visualizations}
           \resumeItemListEnd
 	  %%%\resumeSubheading %3to add it back if needed
       %----------------------------------------------------------------------------
@@ -244,12 +255,17 @@
             %\resumeItem{Implemented a logging system resulting in a 25$\%$ reduction in error rates}
           %\resumeItemListEnd
           \resumeSubHeadingListEnd 
-\section{\seticon{faTerminal} \textbf{PROJECTS}}
+          
+%----------------------------------------------------------------------------
+% Projects
+%\section{\seticon{faTerminal} \textbf{PROJECTS}}
+\section{ \textbf{PROJECTS}}
 	\resumeSubHeadingListStart
      \resumeProjectHeading 
      %----------------------------------------------------------------------------
      % YFIOB’s (Non-Profit) Airtable
-          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{YFIOB’s (Non-Profit) AirTable}}} $|$ \textit{AirTable}}{March 2022 - June 2022}
+     %\href{https://github.com/ChristyYuen}
+          {{\myuline{\textbf{YFIOB’s (Non-Profit) AirTable}}} $|$ \textit{AirTable}}{March 2022 - June 2022}
           \resumeItemListStart
             \resumeItem{Implemented a seamless transition from an outdated Excel-based system to AirTable, resulting in enhanced data organization, improved accessibility, and streamlined operations}
             \resumeItem{Optimized AirTable workflows, automating critical processes and achieving a significant 50$\%$ increase in efficiency, effectively reducing manual effort}
@@ -257,7 +273,8 @@
       \resumeProjectHeading
       %----------------------------------------------------------------------------
       % D\&D Companion
-          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{D\&D Companion}}} $|$ \textit{JavaScript(React, Node), SQL, Adobe XD}}{January 2022 - March 2022}
+      %\href{https://github.com/ChristyYuen}
+          {{\myuline{\textbf{D\&D Companion}}} $|$ \textit{JavaScript(React, Node), SQL, Adobe XD}}{January 2022 - March 2022}
           \resumeItemListStart
             \resumeItem{Integrated tools and methodologies to enhance stand-ups, enabling better tracking, issue identification, and faster resolution}
             \resumeItem{Collaborated with the Product Owner, SCRUM master, and a team of 2 developers to successfully deliver the project using Agile SCRUM methodology}
@@ -265,7 +282,8 @@
       \resumeProjectHeading 
       %----------------------------------------------------------------------------
       % CSE 130 (Principles of Computer Systems Design) Project
-          {\href{https://github.com/ChristyYuen}{\myuline{\textbf{Principles of Computer Systems Design Project}}} $|$ \textit{C}}{January 2021 - March 2021}
+      %\href{https://github.com/ChristyYuen}
+          {{\myuline{\textbf{Principles of Computer Systems Design Project}}} $|$ \textit{C}}{January 2021 - March 2021}
           \resumeItemListStart
             \resumeItem{Engineered and executed a multi-threaded operating system kernel using C}
             \resumeItem{Developed and incorporated a prioritized ready queue that supports both nested and chain priority donation, improving system efficiency and responsiveness}
@@ -282,7 +300,8 @@
           %\resumeItemListEnd     
     \resumeSubHeadingListEnd 
 %-----------------------------------!ORGANIZATIONS!-----------------------------
-\section{\seticon{faUsers} \textbf{LEADERSHIP POSITIONS}}
+%\section{\seticon{faUsers} \textbf{LEADERSHIP POSITIONS}}
+\section{ \textbf{LEADERSHIP POSITIONS}}
   \resumeSubHeadingListStart
   	  %-----------------!Speak_!----------
   	  \resumeOrganizationsHeading
